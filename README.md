@@ -16,9 +16,9 @@ The configuration files in this repository are intended to assist you in setting
 
 At present, the repository supports configuration files for the following 3D Printed drone:
 
-- CA35-Night (SpeedybeeF405AIO 40A) --> 
+- CA35-Night (SpeedybeeF405AIO 40A) --> https://makerworld.com/de/models/2324465-ca35-night-3-5-3d-printable-fpv-drone-frame
 - Nano3LR1 (Happymodel X12 AIO)     --> https://makerworld.com/de/models/108838-nano3lr1
-- Nano3LRG (JHEMCU GSF405A-BMI)     --> https://makerworld.com/de/models/108835-nano3lrg#profileId-118251
+- Nano3LRG (JHEMCU GSF405A-BMI)     --> https://makerworld.com/de/models/108835-nano3lrg
 
 ## Usage
 
