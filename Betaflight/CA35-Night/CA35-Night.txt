@@ -1,0 +1,116 @@
+# diff
+
+# version
+# Betaflight / STM32F405 (F405) 2025.12.1 Jan 21 2026 / 18:14:17 (85d201376) MSP API: 1.47
+# config rev: 46f5576
+
+# start the command batch
+batch start
+
+board_name SPEEDYBEEF405AIO
+manufacturer_id SPBE
+
+# feature
+feature GPS
+feature TELEMETRY
+feature OSD
+
+# serial
+serial UART3 2048 115200 57600 0 115200
+serial UART5 2 115200 57600 0 115200
+
+# map
+map TAER1234
+
+# aux
+aux 0 0 3 1800 2100 0 0
+aux 1 1 2 900 1200 0 0
+aux 2 3 7 1800 2100 0 0
+aux 3 11 5 1800 2100 0 0
+aux 4 46 1 900 1100 0 0
+aux 5 13 3 900 1075 0 0
+aux 6 31 6 1975 2100 0 0
+aux 7 39 4 900 1200 0 0
+
+# vtxtable
+vtxtable bands 3
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5865
+vtxtable powerlevels 1
+vtxtable powervalues 0
+vtxtable powerlabels 25
+
+# master
+set acc_calibration = -70,15,-2,1
+set mag_hardware = NONE
+set blackbox_disable_mag = ON
+set blackbox_disable_alt = ON
+set blackbox_disable_rssi = ON
+set blackbox_disable_gps = ON
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set failsafe_procedure = GPS-RESCUE
+set align_board_yaw = 0
+set vbat_max_cell_voltage = 440
+set ibata_scale = 450
+set yaw_motors_reversed = ON
+set small_angle = 45
+set gps_sbas_mode = EGNOS
+set gps_ublox_use_galileo = ON
+set gps_rescue_initial_climb = 20
+set gps_rescue_max_angle = 60
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set pos_hold_without_mag = ON
+set pid_process_denom = 2
+set osd_vbat_pos = 386
+set osd_rssi_pos = 2075
+set osd_link_quality_pos = 2068
+set osd_link_tx_power_pos = 2048
+set osd_rssi_dbm_pos = 312
+set osd_tim_1_pos = 2461
+set osd_tim_2_pos = 2423
+set osd_flymode_pos = 2442
+set osd_throttle_pos = 2461
+set osd_vtx_channel_pos = 257
+set osd_crosshairs_pos = 2254
+set osd_ah_sbar_pos = 2255
+set osd_ah_pos = 2127
+set osd_current_pos = 2461
+set osd_mah_drawn_pos = 2433
+set osd_craft_name_pos = 394
+set osd_gps_speed_pos = 2116
+set osd_gps_sats_pos = 2369
+set osd_home_dir_pos = 2386
+set osd_home_dist_pos = 2379
+set osd_compass_bar_pos = 2090
+set osd_altitude_pos = 18519
+set osd_warnings_pos = 2410
+set osd_avg_cell_voltage_pos = 2401
+set osd_disarmed_pos = 2316
+set osd_nvario_pos = 2263
+set osd_esc_rpm_pos = 161
+set osd_core_temp_pos = 2448
+set vtx_band = 1
+set vtx_channel = 8
+set vtx_power = 1
+set vtx_freq = 5725
+set vcd_video_system = PAL
+set ap_hover_throttle = 1335
+set ap_throttle_min = 1200
+
+profile 0
+
+# profile 0
+set crash_recovery = ON
+set dyn_idle_min_rpm = 45
+
+rateprofile 3
+
+# end the command batch
+batch end
+
+# 

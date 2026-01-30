@@ -1,6 +1,6 @@
 # Flight Controller Config Repository
 
-Welcome to the Flight Controller Config Repository! This repository is dedicated to storing configuration files for various flight controllers used in my 3D Printed drones. You can learn more about my drones here --> www.carvalhais.ch
+Welcome to the Flight Controller Config Repository! This repository is dedicated to storing configuration files for various flight controllers used in my 3D Printed drones. 
 
 ## Contents
 
@@ -16,8 +16,9 @@ The configuration files in this repository are intended to assist you in setting
 
 At present, the repository supports configuration files for the following 3D Printed drone:
 
-- Nano3LR1 (Happymodel X12 AIO) --> https://www.thingiverse.com/thing:6068779
-- Nano3LRG (JHEMCU GSF405A-BMI)
+- CA35-Night (SpeedybeeF405AIO 40A) --> 
+- Nano3LR1 (Happymodel X12 AIO)     --> https://makerworld.com/de/models/108838-nano3lr1
+- Nano3LRG (JHEMCU GSF405A-BMI)     --> https://makerworld.com/de/models/108835-nano3lrg#profileId-118251
 
 ## Usage
 
